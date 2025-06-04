@@ -1,0 +1,44 @@
+#taskInput {
+  width: 512px;
+  font-weight: 400;
+}
+
+.add-button {
+  width: 50px;
+  font-size: 20px;
+  border-radius: 15px !important;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgb(104, 104, 104);
+}
+
+.to-do-input {
+  flex-direction: row !important;
+  display: flex !important;
+  gap: 2px;
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  font-weight: 500;
+}
+
+.task-checkbox {
+  font-size: 20px !important;
+  margin-top: 0px !important;
+}
+
+.task-checkbox:checked {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.container {
+  max-width: 600px !important ;
+}

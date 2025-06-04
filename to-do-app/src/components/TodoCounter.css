@@ -1,0 +1,8 @@
+p {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.task-counter-container {
+  margin-top: 10px;
+}
